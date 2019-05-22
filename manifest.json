@@ -1,6 +1,6 @@
 {
     "name": "emphasize-me",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Right-click highlighted text to turn it into CLAP 👏 EMPHASIZED 👏 TEXT!",
     "manifest_version": 2,
     "permissions": [

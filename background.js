@@ -6,6 +6,13 @@ chrome.runtime.onInstalled.addListener(function() {
     });
 
     chrome.contextMenus.create({
+        id: "emphasize-case-insensitive",
+        parentId: "emphasize-parent-menu",
+        title: "Leave 👏 case 👏 ALONE",
+        contexts:["selection"]
+    });
+
+    chrome.contextMenus.create({
         id: "emphasize-small-claps",
         parentId: "emphasize-parent-menu",
         title: "small 👏 claps, 👏 no 👏 caps",
